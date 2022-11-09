@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: darkseagreen;
+}
+
+/* START PAGE*/
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.start-btn {
+  padding: 20px;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  background-color: #353535;
+  color: white;
+  border: 3px solid white;
+  cursor: pointer;
+
+}
+
+.start-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-article {
+  margin-top: 5rem;
+}
+
+.gallery-btn {
+  margin-left: 70rem;
+  padding: 5px;
+  background-color: #353535;
+  color: white;
+  border: 1px solid white;
+}
+
+
+/* BATTLE & RESULT */
+
+.main {
+  width: 25rem;
+}
+
+.battle {
+  margin-top: 5rem;
+}
+
+.img {
+  width: 30%;
+  height: 70%;
+}
+
+.result-img {
+  width: 15%;
+  height: 35%;
+}
+
+.left {
+  position: relative;
+  margin-left: -30rem;
+}
+
+.right {
+  position: relative;
+  margin-right: -27rem;
+  margin-top: -20rem;
+}
+
+/* GALLERY*/
+
+.gallery-img {
+  width: 80%;
+  height: 50%;
+  background-color: white;
+  padding: 5px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: start;
+  row-gap: 5rem;
+  margin-top: 5rem;
+}
+
+label {
+  padding: 5px;
+}
+
+input {
+  padding: 5px;
+  border: 3px solid black;
+}
+
+.button {
+  padding: 5px;
+  margin-left: 1rem;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+}
+
+.more-info {
+  position: fixed;
+  background-color: rgb(255 255 255);
+  padding: 5rem;
+  margin-left: 35rem;
+  display: none;
+  color: black;
+}
+
+.text {
+  margin-top: 5rem;
+}
+
+.submit {
+  width: 6rem;
+  margin-left: 12px;
+}
